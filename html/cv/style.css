@@ -1,0 +1,58 @@
+div{
+    width: 760px;
+    height: 1290px;
+    margin: 10px 10px 10px 10px;
+    padding: 150px 0px 0px 0px;
+    color:  rgb(0, 0, 0);
+    position: fixed;
+
+    top: 50px;
+    right: auto;
+}
+img{
+    border-radius: 10%;
+    position: absolute;
+    right: 30px;
+    top: 0px;
+}
+p{
+    position: absolute;
+}
+#p2{
+    position: absolute;
+    top: 310px;
+    margin: 15px;
+
+    
+}
+#con{
+    position: absolute;
+    left: 5px;
+    top: 330px;
+}
+#email{
+    position: absolute;
+    left: 5px;
+    top: 360px;
+}
+#fb{
+    position: absolute;
+    left: 5px;
+    top: 390px;
+}
+#address{
+    position: absolute;
+    left: 5px;
+    top: 420px;
+}
+#Edu{
+    position: absolute;
+    left: 5px;
+    top: 460px;
+    
+}
+#Edub{
+    position: absolute;
+    left: 20px;
+    top: 490px;
+}
