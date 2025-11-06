@@ -1,0 +1,43 @@
+<table>
+    <row>
+        <column>ID</column>
+        <column>Name</column>
+        <column>Admission_Date</column>
+
+        <column>Department</column>
+        <column>Salary</column>
+
+
+    </row>
+    <row>
+        <column>2</column>
+        <column>John Doe</column>
+        <column></column>
+        <column>Sales</column>
+        <column>20000</column>
+        
+
+
+    </row>
+    <row>
+        <column>3</column>
+        <column>Mark Zuckerberg</column>
+        <column></column>
+        <column>Accounts</column>
+        <column>12000</column>
+        
+
+
+    </row>    
+    <row>
+        <column>3</column>
+        <column>Ala Voski</column>
+        <column></column>
+        <column>Human Resource</column>
+        <column>30000</column>
+        
+
+
+    </row>
+</table>
+
