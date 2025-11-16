@@ -1,0 +1,33 @@
+<html>
+<head>
+    <title>Email</title>
+</head>
+<body>
+    <h1 id="head">Email</h1>
+
+   
+    <input type="email" id="email" name="email" placeholder="sample@example.com" /><br><br>
+
+    <input type="button" value="Validate Email" onclick="validateEmail()" /><br><br>
+    <p id="uError"></p>
+
+    <script>
+        function validateEmail() {
+            let email = document.getElementById("email").value;
+            let uError = document.getElementById("uError");
+            uError.textContent = "";
+
+            if (email === "") {
+                alert("Email cannot be empty.");
+                return;
+            }
+            if (!email.includes("@")||!email.includes(".")) {
+                uError.textContent = "Invalid email address.";
+                return;
+            }
+
+            alert("Email is valid!");
+        }
+    </script>
+</body>
+</html>

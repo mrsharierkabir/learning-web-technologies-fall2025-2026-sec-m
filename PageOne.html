@@ -1,0 +1,69 @@
+
+<html>
+<head>
+    <title>
+        Home
+    </title>
+
+</head>
+<body>
+    <h1 id="head">Home</h1>
+    <input type="text" id="username" name="username" value="" placeholder="Enter Full Name" /><br>
+
+    <input type="button" name="click" value="Click" onclick="test()" /> <br><br>
+    <p id="uError"></p>
+
+    
+    <script>
+        let name = "Home";
+       function test(){
+        let uError = document.getElementById('uError');
+        let username = document.getElementById('username').Value;
+        let head = document.getElementById('head')
+       
+
+       username = username.trim();
+       if (username.length === 0){
+        uError.innerHTML = "Name cannot be empty";
+        return;
+       }
+
+       let firstChar = username.charAt(0);
+       let firstCode = username.charCodeAt(0);
+       if(!((firstCode>= 65 && firstCOde<= 90) || (firstCode >=97 && firstCode<=122))){
+        uError.innerHTML = "Start With a Latter";
+        return;
+       }
+       let allowed = "abcdefghijklmnopqrstwxyzABCDEFGHIJKLMNOPQRSTWXYZ.-"
+       for(let i =0 ;i <username.length; i++){
+        let chat = username.charAt(i);
+        if(allowed.indexOf(char === -1)){
+            uError.innerHTML = "only letter ,. , -";
+            return;
+        }
+       }
+       let words = username.split(" ")
+       let realWords = [];
+       for(let i =0 ; i<words.length; i++){
+        if (words[i].trim().length>0){
+            realWords.push(words[i]);
+        }
+       }
+       if (realWords.length<2){
+        uError.innerHTML =" Name must be Two Words";
+        return;
+
+       }
+       uError.innerHTML="valid Name "
+    }
+     
+    
+       
+
+
+
+    </script>
+    
+
+</body>
+</html>
