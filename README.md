@@ -1,1 +1,1 @@
-# learning-web-technologies-fall2025-2026-sec-m
+# learning-web-technologies-sec-Q
